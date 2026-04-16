@@ -13,7 +13,7 @@ public class Main {
         // for menu choice
         int menuChoice = 1;
 
-        /** TODO 1: extend the class Animal to create a new
+        /** extended the class Animal to create a new
          *          land based animal named "Tiger" which extends
          *          Animal.
          *          Extra properties of class "Tiger" are:
@@ -23,7 +23,7 @@ public class Main {
          *
          **/
 
-        /** TODO 2: extend the class Animal to create a new
+        /** extended the class Animal to create a new
          *          water based animal named "Dolphin" which
          *          extends Animal
          *          Extra properties of class "Dolphin" include:
@@ -33,7 +33,7 @@ public class Main {
          **/
 
 
-        /** TODO 3: implemement the "Eat" interface in the
+        /** implememented the "Eat" interface in the
          *          "Tiger" class created in the TODO 1
          *          and also in the
          *          "Dolphin" class created in TODO 2.
@@ -41,7 +41,7 @@ public class Main {
 
 
 
-        /** TODO 5: implement the "Walk" interface in
+        /** implemented the "Walk" interface in
          *          "Tiger" class created in the TODO 1
          *          and in the  implementation of the
          *          "walking" method of the interface
@@ -51,13 +51,13 @@ public class Main {
          *
          **/
 
-        /** TODO 6: create a new interface named "Swim"
+        /** created a new interface named "Swim"
          *          and declaring a method inside it
          *          named "swimming" with the return type
          *          "void"
          **/
 
-        /** TODO 7: implement the "Swim" interface
+        /** implemented the "Swim" interface
          *          in the "Dolphin" class and the
          *          "swimming" method in its implementation
          *          should display the swimming speed as
@@ -67,8 +67,7 @@ public class Main {
          **/
 
 
-        /** TODO 8: create a menu system to work with the Animal selected
-         *          use the switch provided below
+        /**created a menu system to work with the Animal selected
          **/
         Tiger tigerObject = new Tiger("Tiger");
 
@@ -273,9 +272,6 @@ public class Main {
             continueOuterLoop = keyboard.nextInt();
 
         } while(continueOuterLoop == 1);
-        /** TODO 9: create a class "Penguin" from the "Animal" class **/
-
-        /** TODO 10: integrate the choice to pick a "penguin" in the menu system **/
 
     }
 
