@@ -32,7 +32,7 @@ public class Dolphin extends Animal implements Swim{
     }
 
     public Dolphin() {
-        String nameOfAnimal = "Dolphin";
+        super("Dolphin");
     }
 
     @Override
